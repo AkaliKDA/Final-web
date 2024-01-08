@@ -1,6 +1,6 @@
 <?php
 require 'config.php';
-if(!empty($SESSION["id"]]]{
+if(!empty($_SESSION["id"]]]{
 	header("Location: index.php");
 }
 if(isset($_post["sumbit"])){
